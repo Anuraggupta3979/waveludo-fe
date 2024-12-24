@@ -63,7 +63,8 @@ function Header({ isValid }) {
   };
 
   useEffect(() => {
-    if (isValid) userDetail();
+    let hashcode = localStorage.getItem("hashcode");
+    if (isValid && hashcode) userDetail();
   }, [isValid]);
   return (
     <div className="header_main_container">

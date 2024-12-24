@@ -36,7 +36,8 @@ export default function Home() {
 
   useEffect(() => {
     IsTokenValid();
-    getSiteSettings();
+    let hashcode = localStorage.getItem("hashcode");
+    if (hashcode) getSiteSettings();
   }, []);
 
   return (

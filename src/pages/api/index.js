@@ -1,8 +1,11 @@
 import axios from "axios";
 import Cookies from "js-cookie";
 import { message } from "antd";
-const baseURL = `https://api.starludo.club/api/v1/`;
+// const baseURL = `https://api.starludo.club/api/v1/`;
+import jwt from "jsonwebtoken";
+
 // const baseURL = `http://157.173.218.246:5011/api/v1/`;
+const baseURL = `http://localhost:5010/api/v1/`;
 let HELPERS = {
   getCookie: (name) => {
     let cookieValue = null;
@@ -39,13 +42,39 @@ let HELPERS = {
   },
   secureRequest: async (config) => {
     config.headers = config.headers ? config.headers : {};
+
     let hashcode = localStorage.getItem("hashcode");
+    function decodeJwt(token) {
+      // Split the JWT into parts
+      const parts = token.split(".");
+
+      if (parts.length !== 3) {
+        throw new Error("Invalid JWT token");
+      }
+
+      // Decode Payload
+      const payload = JSON.parse(atob(parts[1]));
+
+      return { ...payload };
+    }
+    // const validToken = jwt.verify(hashcode, "starmsgjwtsecret");
+    const now = new Date();
+
+    // Get day, month, hour, minute, second, all in two digits
+    const day = String(now.getDate()).padStart(2, "0");
+    const month = String(now.getMonth() + 1).padStart(2, "0"); // Months are 0-based
+    const hour = String(now.getHours()).padStart(2, "0");
+    const minute = String(now.getMinutes()).padStart(2, "0");
+    const second = String(now.getSeconds()).padStart(2, "0");
+
+    const payload = decodeJwt(hashcode);
+    const formattedKey = `${second}${hour}${payload?.sessionId}${day}${month}${payload.userId}${minute}`;
+
     if (!hashcode) {
       // message.error("Your session is expired, please login again.");
       if (
         window?.location?.pathname !== "/" &&
         !window?.location?.pathname?.includes("login") &&
-        // window?.location?.pathname !== "/login/:refferal_code" &&
         window?.location?.pathname !== "/privacy-policy" &&
         window?.location?.pathname !== "/terms-conditions" &&
         window?.location?.pathname !== "/support" &&
@@ -58,6 +87,7 @@ let HELPERS = {
       return;
     }
     config.headers["Authorization"] = `Bearer ${hashcode} `;
+    config.headers["key"] = formattedKey;
     try {
       const response = await HELPERS.request(config);
       return response;
@@ -568,7 +598,7 @@ const API_MANAGER = {
     });
   },
   getAllSettings: () => {
-    return HELPERS.request({
+    return HELPERS.secureRequest({
       baseURL,
       url: `settings`,
       method: "GET",

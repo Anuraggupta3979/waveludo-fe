@@ -33,8 +33,8 @@ function ContactUs() {
     } catch (e) {}
   };
   useEffect(() => {
-    getSiteSettings();
-  }, []);
+    let hashcode = localStorage.getItem("hashcode");
+    if (hashcode) getSiteSettings();  }, []);
   return (
     <>
       <Head>

@@ -336,8 +336,8 @@ function AddCash() {
 
   useEffect(() => {
     userDetail();
-    getSiteSettings();
-    // checkDepositTMPAYUPI();
+    let hashcode = localStorage.getItem("hashcode");
+    if (hashcode) getSiteSettings(); // checkDepositTMPAYUPI();
     getTxnDetailAPi();
   }, []);
   return (

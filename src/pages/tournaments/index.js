@@ -26,7 +26,8 @@ function Tournaments() {
     }
   };
   useEffect(() => {
-    getSiteSettings();
+    let hashcode = localStorage.getItem("hashcode");
+    if (hashcode) getSiteSettings();
   }, []);
   return (
     <>

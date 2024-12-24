@@ -42,7 +42,8 @@ export default function App({ Component, pageProps }) {
     }
   };
   useEffect(() => {
-    getSiteSettings();
+    let hashcode = localStorage.getItem("hashcode");
+    if (hashcode) getSiteSettings();
     IsTokenValid();
   }, []);
   return (
