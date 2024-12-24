@@ -68,7 +68,7 @@ function ContactUs() {
         <meta name="twitter:type" content="summary" />
         <meta property="og:locale" content="English" />
         <meta property="og:site_name" content="Wave Game" />
-        <meta name="og:email" content="msgurjar1992@gmail.com" />
+        <meta name="og:email" content="mskanwar5604@gmail.com" />
         <meta name="og:phone_number" content="+91 9667175604" />
         <meta name="og:latitude" content="26.9124" />
         <meta name="og:longitude" content="75.7873" />
@@ -221,7 +221,7 @@ function ContactUs() {
                         </a>
                       </Col> */}
                       {/* <Col>
-                        <a href="mailto:admin@starludo.club">
+                        <a href="mailto:mskanwar5604@gmail.com">
                           <Image
                             className="cursor-pointer"
                             src={GmailIcon}

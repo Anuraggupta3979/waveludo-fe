@@ -51,7 +51,7 @@ function TermsAndConditions() {
           <p className="heading">1. The Terms</p>
           <p className="desc">
             <span>1.1. </span>{" "}
-            {`These Terms and Conditions is a legally binding document and is an electronic record in the form of an electronic contract formed under Information Technology Act, 2000 and rules made thereunder. These Terms and Conditions must be read in conjunction with the Terms of Use of the App (hereinafter referred to as “Terms of Use”) and the Privacy Policy of the App (hereinafter referred to as “Privacy Policy”).These Terms of Service (the “Terms”) are a legal and binding agreement between users (“Users”) andStar (referred to as the “WAVEGAME”), in relation to all games and applications made available by Wave Game(jointly and interchangeably referred to as the “Services”), and any information, text, graphics, video, sound, pictures, and any other materials appearing, sent, uploaded, communicated, transmitted or otherwise made available via the abovementioned Services (jointly referred to as the “Content”).`}
+            {`These Terms and Conditions is a legally binding document and is an electronic record in the form of an electronic contract formed under Information Technology Act, 2000 and rules made thereunder. These Terms and Conditions must be read in conjunction with the Terms of Use of the App (hereinafter referred to as “Terms of Use”) and the Privacy Policy of the App (hereinafter referred to as “Privacy Policy”).These Terms of Service (the “Terms”) are a legal and binding agreement between users (“Users”) and Wave Game (referred to as the “WAVEGAME”), in relation to all games and applications made available by Wave Game(jointly and interchangeably referred to as the “Services”), and any information, text, graphics, video, sound, pictures, and any other materials appearing, sent, uploaded, communicated, transmitted or otherwise made available via the abovementioned Services (jointly referred to as the “Content”).`}
           </p>
           <p className="desc">
             <span>1.2. </span> By accessing and/or using the Services, Users
@@ -157,7 +157,7 @@ function TermsAndConditions() {
             Services as provided by STARVISTAR GAMING LLP, in the manner
             according with by these Terms. The Services may change or being
             modified from time to time without prior notice or communication.
-            Furthermore Starmay, at its own discretion, cease totally or
+            Furthermore Wave Game may, at its own discretion, cease totally or
             partially, and/or permanently or temporarily the provision of the
             Services or Users accounts without prior notice or communication.
           </p>
@@ -255,9 +255,9 @@ function TermsAndConditions() {
             Wave Game reserves the right to withdraw the deal anytime during the
             tenure of the services without prior intimation. You acknowledge
             that you are not entitled to a refund for any unused Levels or
-            unused Virtual Items when Starstops making an Application available,
-            whether such action is taken at STARVISTAR GAMING LLP´s discretion
-            or due to unforeseen events.
+            unused Virtual Items when Wave Game stops making an Application
+            available, whether such action is taken at STARVISTAR GAMING LLP´s
+            discretion or due to unforeseen events.
           </p>
           <p className="desc">
             <span>5.2. </span> The price payable by you is the price, if
@@ -304,13 +304,14 @@ function TermsAndConditions() {
             <span>5.4. </span> Usage of Wave Game
           </p>
           <p className="desc">
-            Any person (<strong>User</strong>) Staror the Wave Game App{" "}
-            {`('Starplatform')`} for participating in the various contests and
-            games, available on STARVISTAR GAMING LLPplatform (
-            <strong>{`"Contest(s)", “Tournament"`}</strong>){`('Starplatform')`}{" "}
-            shall be bound by these Terms and Conditions, and all other rules,
-            regulations and terms of use referred to herein or provided by Wave
-            Game IT & E-commerce Services in relation to any Wave Game Services.
+            Any person (<strong>User</strong>) WaveGame or the Wave Game App{" "}
+            {`('Wave Game Platform')`} for participating in the various contests
+            and games, available on STARVISTAR GAMING LLPplatform (
+            <strong>{`"Contest(s)", “Tournament"`}</strong>)
+            {`('Wave Game Platform')`} shall be bound by these Terms and
+            Conditions, and all other rules, regulations and terms of use
+            referred to herein or provided by Wave Game IT & E-commerce Services
+            in relation to any Wave Game Services.
           </p>
           <p className="desc">
             Wave Game shall be entitled to modify these Terms and Conditions,
@@ -319,7 +320,7 @@ function TermsAndConditions() {
             posting the same on Wave Game. Use of STARVISTAR GAMING
             LLPconstitutes the User's acceptance of such Terms and Conditions,
             rules, regulations and terms of use referred to herein or provided
-            by Wave Game in relation to any StarServices, as may be amended from
+            by Wave Game in relation to any Services, as may be amended from
             time to time. Wave Game may, at its sole discretion, also notify the
             User of any change or modification in these Terms and Conditions,
             rules, regulations and terms of use referred to herein or provided
@@ -375,7 +376,7 @@ function TermsAndConditions() {
             In the event any User breaches, or STARVISTAR GAMING LLP
             Servicesreasonably believes that such User has breached these Terms
             and Conditions, or has illegally or improperly used STARVISTAR
-            GAMING LLP or the Wave Game Services, Starmay, at its sole and
+            GAMING LLP or the Wave Game Services, WaveGame may, at its sole and
             absolute discretion, and without any notice to the User, restrict,
             suspend or terminate such {`User's`} access to all or any part of
             STARVISTAR GAMING LLPContests or the Wave Game Platform, deactivate
@@ -389,7 +390,7 @@ function TermsAndConditions() {
             If Wave Game charges its Users a platform fee in respect of any Wave
             Game Services, STARVISTAR GAMING LLPshall, without delay, repay such
             platform fee in the event of suspension or removal of the
-            {`User's`} account or StarServices on account of any negligence or
+            {`User's`} account or Services on account of any negligence or
             deficiency on the part of STARVISTAR GAMING LLP, but not if such
             suspension or removal is affected due to:
           </p>
@@ -512,7 +513,7 @@ function TermsAndConditions() {
           <p className="desc">
             <span>7.2. </span> Users must not copy, distribute, make available
             to the public or create any derivative work from any Content
-            belonging to Starand/or any other User. Starrespects the
+            belonging to Wave Game and/or any other User. Wave Game respects the
             intellectual property rights of others and expects Users to do the
             same. If Users or any third party believe that their Content has
             been copied in a way that constitutes copyright infringement, they
@@ -588,7 +589,7 @@ function TermsAndConditions() {
           <p className="desc">
             <span>9.1. </span> All right, title, and interest in and to the
             Services, according to the provisions set on these Terms, are and
-            will remain the exclusive property ofStar and its licensors.
+            will remain the exclusive property of Wave Game and its licensors.
             Services are protected by copyright, trademark, and other laws.
             Nothing in the Terms gives Users any right to use the Wave Game name
             or any of the STARVISTAR GAMING LLP trademarks, logos, domain names,
@@ -596,11 +597,11 @@ function TermsAndConditions() {
           </p>
           <p className="desc">
             <span>9.2. </span> These Terms will continue to apply until
-            terminated by either Users orStar as follows: (i) Users may end this
-            legal agreement with STARVISTAR GAMING LLP at any time for any
-            reason, by discontinuing the use of the Services and contacting{" "}
-            <a style={{ color: "blue" }} href={"mailto:admin@starludo.club"}>
-              <span className="s6">admin@starludo.club </span>
+            terminated by either Users or Wave Game as follows: (i) Users may
+            end this legal agreement with STARVISTAR GAMING LLP at any time for
+            any reason, by discontinuing the use of the Services and contacting{" "}
+            <a style={{ color: "blue" }} href={"mailto:mskanwar5604@gmail.com"}>
+              <span className="s6">mskanwar5604@gmail.com </span>
             </a>{" "}
             &nbsp;to delete their account, provided that they will still be
             responsible for all the conditions set in this Term for the time
@@ -624,9 +625,9 @@ function TermsAndConditions() {
             Content are at Users’ own risk. Users understand and agree that the
             Services are provided on an {`"as is" and "as available"`} basis.
             Without limiting the foregoing, to the maximum extent permitted
-            under applicable law, Stardisclaims all warranties and conditions,
-            whether express or implied, of merchantability, fitness for a
-            particular purpose or non-infringement.
+            under applicable law, Wave Game disclaims all warranties and
+            conditions, whether express or implied, of merchantability, fitness
+            for a particular purpose or non-infringement.
           </p>
           <p className="desc">
             <span>9.5. </span> Wave Game makes no warranty and disclaim all
@@ -657,9 +658,9 @@ function TermsAndConditions() {
           </p>
           <p className="desc">
             <span>9.7. </span> To the maximum extent permitted by applicable
-            law, Starshall not be liable for any indirect, incidental, special,
-            consequential or punitive damages, or any loss of profits or
-            revenues, whether incurred directly or indirectly or any loss of
+            law, Wave Game shall not be liable for any indirect, incidental,
+            special, consequential or punitive damages, or any loss of profits
+            or revenues, whether incurred directly or indirectly or any loss of
             data, use, good-will, or other intangible losses, resulting from (i)
             the access to, use of, or inability to access to or use the
             services; (ii) any conduct or content of any third party on the
@@ -671,10 +672,10 @@ function TermsAndConditions() {
           <p className="desc">
             <span>9.8. </span> In no event shall the aggregate liability of Wave
             Game IT & E-commerce Servicesexceed the total amount that such User
-            has paid to Starin the six-month period ending on the date of the
-            claim, to a maximum of One Thousand Indian Rupees (INR 1000). The
-            limitations shall apply to any theory of liability whether based on
-            warranty, contract, statute, tort (including negligence) or
+            has paid to Wave Game in the six-month period ending on the date of
+            the claim, to a maximum of One Thousand Indian Rupees (INR 1000).
+            The limitations shall apply to any theory of liability whether based
+            on warranty, contract, statute, tort (including negligence) or
             otherwise, and whether or not STARVISTAR GAMING LLP has been
             informed the possibility of any such damage, and even if a remedy
             set forth herein is found to have failed its essential purpose.
@@ -773,11 +774,11 @@ function TermsAndConditions() {
             over India except the States of Assam, Odisha, Nagaland, Sikkim,
             Meghalaya, Andhra Pradesh, AND Telangana and/or any other State
             which has banned/prohibited or to be prohibited to run/operate of
-            StarSkill Games. STARVISTAR GAMING LLP Skill Games, being played for
-            free without the involvement of money/ or any equivalent stakes may
-            be run all over India. In spite of this, if any User run and/or
-            operate the STARVISTAR GAMING LLP Skill Games, he will be solely
-            responsible for the same.
+            WaveGame Skill Games. STARVISTAR GAMING LLP Skill Games, being
+            played for free without the involvement of money/ or any equivalent
+            stakes may be run all over India. In spite of this, if any User run
+            and/or operate the STARVISTAR GAMING LLP Skill Games, he will be
+            solely responsible for the same.
           </p>
           <p className="desc">
             <span>9.13. </span> Wave Game's skill-based games are not Gambling,
@@ -789,7 +790,8 @@ function TermsAndConditions() {
             Services and Users regarding the Services, excluding any services
             for which Users may have a separate agreement explicitly in addition
             or in place of these Terms, and these Terms supersede and replace
-            any prior agreements between Starand Users regarding the Services.
+            any prior agreements between Wave Game and Users regarding the
+            Services.
           </p>
           <p className="desc">
             <span>9.15. </span>Wave Game may revise these Terms from time to
@@ -1744,9 +1746,9 @@ function TermsAndConditions() {
             {`'s`} Privacy Policy (available here:&nbsp;
             <a
               style={{ color: "blue" }}
-              href={"https://starludo.club//privacy-policy"}
+              href={"https://wavegame.in/privacy-policy"}
             >
-              <span className="s6">https://starludo.club//privacy-policy</span>
+              <span className="s6">https://wavegame.in/privacy-policy</span>
             </a>
             &nbsp;for Indian users).
           </p>
