@@ -1,0 +1,289 @@
+.viewBattleContainer {
+  .battleContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 28px !important;
+    .battleCard {
+      border-radius: 2px;
+      padding: 20px;
+      // border-top: 2px solid #f72586;
+      background: linear-gradient(
+        90deg,
+        rgba(8, 36, 66, 1) 0%,
+        rgba(8, 36, 66, 1) 47%,
+        rgba(4, 24, 45, 1) 100%
+      );
+      .amount {
+        color: #fff;
+        font-family: "Nunito Sans", sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+      .playingFor {
+        color: #fff;
+      }
+      .roomCode {
+        color: #fff;
+        text-align: center;
+        font-size: 1.5rem !important;
+      }
+    }
+    .rules {
+      color: #fff;
+      text-align: center;
+      font-family: "Nunito Sans", sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+    .mt-playing {
+      margin-top: 32px;
+    }
+    .referInputBox {
+      border-radius: 24px !important;
+      border: 1px solid #000 !important;
+      background: #fff !important;
+      height: 50px !important;
+      padding: 0px 0px 0px 16px !important;
+      input {
+        background: transparent !important;
+        color: #000 !important;
+        font-family: "Nunito Sans", sans-serif !important;
+        font-size: 24px !important;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+    }
+  }
+  .matchContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 28px !important;
+    .battleCard {
+      border-radius: 8px;
+      // border-top: 2px solid #70c0f9;
+      background: linear-gradient(
+        90deg,
+        rgba(8, 36, 66, 1) 0%,
+        rgba(8, 36, 66, 1) 47%,
+        rgba(4, 24, 45, 1) 100%
+      );
+      padding: 20px;
+      max-width: 881px;
+      .amount {
+        color: #fff;
+        font-family: "Nunito Sans", sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+      .desc {
+        color: #fff;
+        text-align: center;
+        font-family: "Nunito Sans", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 22px;
+        @media screen and (max-width: 600px) {
+          font-size: 13px !important;
+        }
+      }
+      .roomCode {
+        color: #fff;
+        text-align: center;
+        font-size: 1rem !important;
+        margin-bottom: 4px !important;
+      }
+    }
+  }
+  .roomCodeInputBox {
+    max-width: 483px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px !important;
+    border: 1px solid #000 !important;
+    background: #fff !important;
+    height: 50px !important;
+    padding: 0px 0px 0px 16px !important;
+
+    input {
+      background: transparent !important;
+      color: #040424 !important;
+      font-family: "Nunito Sans", sans-serif !important;
+      font-size: 24px !important;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+    .referSubmitBtn {
+      height: 100% !important;
+      color: #fff !important;
+      background: #040524 !important;
+      border-radius: 8px !important;
+
+      text-align: center;
+      font-family: "Nunito Sans", sans-serif !important;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      &:hover {
+        color: #fff !important;
+      }
+    }
+  }
+  .downloadAppContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    .heading {
+      color: #000;
+      font-family: "Nunito Sans", sans-serif !important;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 600;
+      margin-bottom: 20px !important;
+      line-height: normal;
+    }
+    .note {
+      max-width: 600px;
+      font-size: 1rem !important;
+      text-align: center !important;
+      text-transform: uppercase;
+      // font-weight: bold;
+      color: #000051;
+      // padding: 0.3rem 0;
+      line-height: 1.5rem;
+      font-family: "Nunito Sans", sans-serif !important;
+      font-size: 10px;
+      font-style: normal;
+      margin-bottom: 20px !important;
+      line-height: normal;
+    }
+    .note2 {
+      font-weight: bold;
+    }
+  }
+  .btnContainer {
+    margin-top: 20px;
+  }
+  .selectBox {
+    height: 40px !important;
+    margin-top: 20px;
+
+    .ant-select-selector {
+      border-radius: 8px !important;
+      border: 1px solid #000 !important;
+      background: #fff !important;
+      padding: 40px auto !important;
+      //   height: 50px !important;
+      //   display: flex;
+      //   align-items: center;
+      //   justify-content: center !important;
+      .ant-select-selection-item {
+        background: transparent !important;
+        color: #333333 !important;
+        font-family: "Nunito Sans", sans-serif !important;
+        font-size: 16px !important;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+    }
+  }
+  .uploadSSContainer {
+    margin-top: 20px;
+    .ant-upload {
+      width: 100% !important;
+    }
+  }
+  .waitingContainer {
+    .title {
+      color: #fff !important;
+      font-family: "Nunito Sans", sans-serif !important;
+      font-size: 18px !important;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      text-align: center;
+    }
+    .desc {
+      color: #fff !important;
+      font-family: "Nunito Sans", sans-serif !important;
+      font-size: 14px !important;
+      font-style: normal;
+      margin-top: 12px;
+      font-weight: 600;
+      line-height: normal;
+      text-align: center;
+    }
+  }
+  .ludoDesc {
+    color: #fff !important;
+    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 16px !important;
+    font-style: normal;
+    // margin-top: 12px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+  }
+  .ant-upload-list-item-container {
+    width: 100% !important;
+  }
+}
+
+.radioGroup {
+  span {
+    color: #fff !important;
+    font-family: Arial !important;
+    font-size: 12px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .ant-radio-inner {
+    border-color: #040524 !important;
+  }
+  .ant-radio-wrapper .ant-radio-checked .ant-radio-inner {
+    border-color: #040524 !important;
+    background-color: #040524 !important;
+  }
+}
+.uploadTitle {
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 20px !important;
+  line-height: normal;
+}
+.alreadyEnrolled {
+  .title {
+    color: #fff !important;
+    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+  }
+  .desc {
+    color: #fff !important;
+    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 16px !important;
+    font-style: normal;
+    // margin-top: 12px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+  }
+}

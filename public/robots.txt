@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /contact
+Allow: /privacy-policy
+Allow: /

@@ -1,0 +1,99 @@
+.loginContainer {
+  // background-color: #040524;
+  .loginContentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px !important;
+    .loginCard {
+      border-radius: 30px;
+      padding: 20px 56px;
+      border-radius: 12px;
+      // border-top: 2px solid #f72586;
+      background: #fff;
+      width: 543px;
+      .referCode {
+        color: #00207d;
+        text-align: center;
+        font-family: "Nunito Sans", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 0px !important;
+      }
+      .title {
+        color: #000;
+        text-align: center;
+        font-family: "Nunito Sans", sans-serif;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        @media screen and (max-width: 600px) {
+          font-size: 32px;
+        }
+      }
+      .inputBox {
+        border-radius: 8px !important;
+        background: #fff !important;
+        // padding: 16px !important;
+        margin-top: 20px;
+        border-radius: 12px;
+        border: none !important;
+        border: 1px solid #000 !important;
+        input {
+          background: #fff !important;
+          color: #040524;
+          //   text-align: center;
+          font-family: "Nunito Sans", sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          @media screen and (max-width: 600px) {
+            font-size: 20px;
+          }
+        }
+        .mobilePrefix {
+          color: #000;
+          //   text-align: center;
+          font-family: "Nunito Sans", sans-serif;
+          display: flex;
+          align-items: center;
+          gap: 4px;
+          font-size: 16px;
+          // font-style: normal;
+          // font-weight: 600;
+          // line-height: normal;
+        }
+      }
+      .login_btn {
+        padding: 10px 20px !important;
+        border-radius: 8px !important;
+        margin-top: 20px !important;
+        &:hover {
+          border: 1px solid #040524 !important;
+        }
+        font-size: 16px !important;
+      }
+      .resendOtp {
+        color: #333333;
+        text-align: center;
+        cursor: pointer;
+        font-family: "Nunito Sans", sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: -16px !important;
+        @media screen and (max-width: 600px) {
+          font-size: 20px;
+        }
+        span {
+          color: #040524 !important;
+        }
+      }
+    }
+  }
+}

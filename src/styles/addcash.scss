@@ -1,0 +1,286 @@
+.addCashContainer {
+  .title {
+    color: #333333;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 14px;
+    @media screen and (max-width: 600px) {
+      font-size: 16px;
+    }
+  }
+  .inputBox {
+    border-radius: 8px !important;
+    border: 1px solid #000 !important;
+    border-radius: 12px;
+    background: #fff !important;
+    // box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25) !important;
+    font-size: 20px !important;
+    height: 50px !important;
+    font-family: "Nunito Sans", sans-serif !important;
+    @media screen and (max-width: 600px) {
+      font-size: 16px !important;
+    }
+  }
+  .amountContainer {
+    margin-top: 49px !important;
+    @media screen and (max-width: 600px) {
+      margin-top: 10px !important;
+    }
+  }
+  .amount {
+    color: #fff;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    @media screen and (max-width: 600px) {
+      font-size: 24px;
+    }
+  }
+  .amountBox {
+    border-radius: 10px;
+    padding: 24px 10px;
+    cursor: pointer;
+    background: linear-gradient(
+      90deg,
+      rgba(8, 36, 66, 1) 0%,
+      rgba(8, 36, 66, 1) 47%,
+      rgba(4, 24, 45, 1) 100%
+    );
+    color: white;
+    img {
+      width: 26px;
+      height: 26px !important ;
+    }
+    @media screen and (max-width: 600px) {
+      padding: 20px 10px;
+      img {
+        width: 22px;
+        height: 22px !important ;
+      }
+      .ant-row {
+        align-items: center !important;
+      }
+    }
+  }
+  .btnContainer {
+    margin-top: 64px;
+    @media screen and (max-width: 600px) {
+      div {
+        width: 100% !important;
+      }
+      button {
+        width: 100% !important;
+        font-size: 18px !important;
+      }
+    }
+  }
+  .toBeAddedContainer {
+    .heading {
+      color: #000;
+      font-family: "Nunito Sans", sans-serif !important;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+
+    .ant-divider {
+      margin-top: 20px !important;
+      margin-bottom: 20px !important;
+      background: #b7b7b7 !important;
+    }
+    .paymentThrough {
+      color: #000;
+      font-family: "Nunito Sans", sans-serif !important;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+    .payNow {
+      border-radius: 8px;
+      background: #fff;
+      padding: 20px;
+      margin-top: 24px;
+      margin-bottom: 24px;
+      .title {
+        color: #333333;
+        font-family: "Nunito Sans", sans-serif !important;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+    }
+  }
+  .addCashContainer {
+    .title {
+      color: #333333;
+      font-family: "Nunito Sans", sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin-bottom: 14px;
+      @media screen and (max-width: 600px) {
+        font-size: 20px;
+      }
+    }
+    .inputBox {
+      border-radius: 8px !important;
+      border: 1px solid #f72586 !important;
+      border-radius: 12px;
+      background: #ffeef6 !important;
+      // box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25) !important;
+      font-size: 20px !important;
+      height: 50px !important;
+      font-family: "Nunito Sans", sans-serif !important;
+      @media screen and (max-width: 600px) {
+        font-size: 16px !important;
+      }
+    }
+    .amountContainer {
+      margin-top: 49px !important;
+      @media screen and (max-width: 600px) {
+        margin-top: 10px !important;
+      }
+    }
+    .amount {
+      color: #333333;
+      text-align: center;
+      align-items: center;
+      font-family: "Nunito Sans", sans-serif !important;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      @media screen and (max-width: 600px) {
+        font-size: 22px;
+      }
+    }
+    .amountBox {
+      border-radius: 10px;
+      padding: 24px 10px;
+      text-align: center;
+      cursor: pointer;
+      background: #ebf7ff;
+      border-top: 2px solid #70c0f9;
+      img {
+        width: 26px;
+        height: 26px !important ;
+      }
+      @media screen and (max-width: 600px) {
+        padding: 20px 10px;
+        img {
+          width: 22px;
+          height: 22px !important ;
+        }
+        .ant-row {
+          align-items: center !important;
+        }
+      }
+    }
+    .btnContainer {
+      margin-top: 64px;
+
+      @media screen and (max-width: 600px) {
+        div {
+          width: 100% !important;
+        }
+        button {
+          width: 100% !important;
+          font-size: 18px !important;
+        }
+      }
+    }
+    .toBeAddedContainer {
+      .heading {
+        color: #000;
+        font-family: "Nunito Sans", sans-serif !important;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+
+      .ant-divider {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+        background: #b7b7b7 !important;
+      }
+      .paymentThrough {
+        color: #000;
+        font-family: "Nunito Sans", sans-serif !important;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+      .payNow {
+        border-radius: 8px;
+        border-top: 2px solid #70c0f9;
+        background: #ebf7ff;
+        padding: 20px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        .title {
+          color: #333333;
+          font-family: "Nunito Sans", sans-serif !important;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+      }
+    }
+  }
+  .primary_button2.next_button {
+    font-size: 21px !important;
+    padding: 10px 40px;
+  }
+  .roomCodeInputBox {
+    max-width: 483px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px !important;
+    border: 1px solid #f72586 !important;
+    background: #ffeef6 !important;
+    height: 50px !important;
+    padding: 0px 0px 0px 16px !important;
+
+    input {
+      background: transparent !important;
+      color: #040424 !important;
+      font-family: "Nunito Sans", sans-serif !important;
+      font-size: 24px !important;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+    .referSubmitBtn {
+      height: 100% !important;
+      color: #fff !important;
+      background: #040524 !important;
+      border-radius: 8px !important;
+
+      text-align: center;
+      font-family: "Nunito Sans", sans-serif !important;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      &:hover {
+        color: #fff !important;
+      }
+    }
+  }
+  .ant-upload {
+    width: 100% !important;
+  }
+}

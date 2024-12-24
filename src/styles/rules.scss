@@ -1,0 +1,28 @@
+.rulesContainer {
+  .heading {
+    color: #161616;
+    text-align: justify;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0.5rem;
+  }
+  .desc {
+    color: #161616;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+
+    span {
+      font-weight: 500;
+    }
+    @media screen and (max-width: 600px) {
+      font-size: 16px;
+    }
+  }
+}

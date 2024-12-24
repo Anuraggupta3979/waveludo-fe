@@ -1,0 +1,51 @@
+.walletContainer {
+  .walletCard {
+    border-radius: 12px;
+    background: linear-gradient(
+      90deg,
+      rgba(8, 36, 66, 1) 0%,
+      rgba(8, 36, 66, 1) 47%,
+      rgba(4, 24, 45, 1) 100%
+    );
+    padding: 24px 16px;
+
+    .title {
+      color: #fff;
+      font-family: "Nunito Sans", sans-serif;
+      font-size: 1.2rem;
+      font-style: normal;
+      font-weight: 700;
+      text-align: center;
+      margin-top: 12px;
+      line-height: normal;
+    }
+    .desc {
+      color: rgb(191, 211, 255);
+      font-family: "Nunito Sans", sans-serif;
+      font-size: 0.9rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: 20px;
+      text-align: center;
+      @media screen and (max-width: 600px) {
+        margin-top: 10px;
+      }
+    }
+    .amount {
+      color: #fff;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Nunito Sans", sans-serif;
+      font-size: 1.1rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    .card_footer {
+      margin-top: 20px;
+    }
+  }
+}

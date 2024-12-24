@@ -1,0 +1,65 @@
+.contactContainer {
+  .heading {
+    color: #333333;
+    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 32px !important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px !important;
+  }
+  label {
+    color: #333333;
+    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: normal;
+    @media screen and (max-width: 600px) {
+      font-size: 16px !important;
+    }
+  }
+  .inputBox {
+    border-radius: 4px !important;
+    border: 1px solid #b9b9b9 !important;
+    background: #f7f6f6 !important;
+    // box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25) !important;
+    font-size: 20px !important;
+    height: 40px !important;
+    font-family: "Nunito Sans", sans-serif !important;
+  }
+  .inputTextArea {
+    border-radius: 4px !important;
+    border: 1px solid #b9b9b9 !important;
+    font-size: 20px !important;
+    background: #f7f6f6 !important;
+    font-family: "Nunito Sans", sans-serif !important;
+    min-height: 200px;
+  }
+
+  .submit_btn {
+    width: 100% !important;
+    padding-top: 12px !important;
+    font-size: 20px !important;
+    padding-bottom: 12px !important;
+  }
+  .address_title {
+    color: #333333;
+    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: normal;
+  }
+  .address_desc {
+    color: #333333;
+    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    line-height: normal;
+    @media screen and (max-width: 600px) {
+      font-size: 16px !important;
+    }
+  }
+}

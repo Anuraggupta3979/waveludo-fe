@@ -1,0 +1,67 @@
+.header_main_container {
+  background: linear-gradient(
+    90deg,
+    rgba(8, 36, 66, 1) 0%,
+    rgba(8, 36, 66, 1) 47%,
+    rgba(4, 24, 45, 1) 100%
+  );
+  padding: 10px 1rem;
+  width: 100%;
+  box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%) !important;
+
+  .logo {
+    width: 6rem !important;
+    height: auto !important;
+    @media screen and (max-width: 500px) {
+      width: 6em !important;
+    }
+  }
+}
+
+.menu_drawer_container {
+  .ant-drawer-content {
+    background: linear-gradient(90deg, rgba(8,36,66,1) 0%, rgba(8,36,66,1) 47%, rgba(4,24,45,1) 100%) !important;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%) !important;
+  }
+  .ant-drawer-header {
+    .ant-drawer-header-title {
+      flex-direction: row-reverse !important;
+      .ant-drawer-title {
+        color: #fff !important;
+        font-size: 20px !important;
+      }
+    }
+  }
+  .ant-drawer-close {
+    svg {
+      color: #fff !important;
+    }
+  }
+}
+.headerMenuItem {
+  margin-bottom: 28px;
+  // border-bottom: 1px solid #fff;
+  cursor: pointer;
+  border-radius: 0px 0px 4px 4px;
+  .menuLink {
+    color: #eeeeee;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .logoutLink {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #fff;
+  }
+}
+.menuDropdown {
+  li:not(:last-child) {
+    border-bottom: 1px solid #dadada;
+  }
+}

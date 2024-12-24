@@ -1,0 +1,138 @@
+.refer_container {
+  .refer_card {
+    border-radius: 8px;
+    // border-top: 2px solid #70c0f9;
+    background: linear-gradient(
+      90deg,
+      rgba(8, 36, 66, 1) 0%,
+      rgba(8, 36, 66, 1) 47%,
+      rgba(4, 24, 45, 1) 100%
+    );
+    font-family: "Nunito Sans", sans-serif !important;
+    padding: 20px;
+
+    // box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.25);
+  }
+  .subDesc {
+    color: #fff;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    span {
+      font-weight: 700;
+    }
+  }
+  .inputBox {
+    border-radius: 8px !important;
+    border: 1px solid #000 !important;
+    background: #fff !important;
+    margin-top: 20px;
+    padding: 8px 10px !important;
+    border-radius: 12px;
+    input {
+      background: #f1f1f1 !important;
+      color: #128300;
+      //   text-align: center;
+      font-family: "Nunito Sans", sans-serif;
+      font-size: 24px !important;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      @media screen and (max-width: 600px) {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .rules {
+    color: #737373;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    @media screen and (max-width: 600px) {
+      font-size: 16px !important;
+    }
+  }
+  .card1 {
+    margin-bottom: 20px;
+  }
+  .desc {
+    color: #fff;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif !important;
+    font-size: 0.875em;
+    margin-bottom: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    @media screen and (max-width: 600px) {
+      font-size: 16px !important;
+    }
+  }
+  .earn_heading {
+    color: #fff;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif !important;
+
+    text-align: center;
+    font-family: Nunito;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .redeem_heading {
+    color: #fff;
+    font-family: "Nunito Sans", sans-serif !important;
+
+    text-align: center;
+    font-family: Nunito;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    @media screen and (max-width: 600px) {
+      font-size: 24px !important;
+    }
+  }
+  .commission_title {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 500;
+  }
+  .commission_desc {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 16px;
+    font-weight: 500;
+    color: #fff;
+    span {
+      color: yellow;
+      font-size: 1.5rem;
+    }
+  }
+}
+.whatsappBtn {
+  color: #fff;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif !important;
+  font-size: 24px !important;
+  background: #128300;
+  border-radius: 12px !important;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  height: auto !important;
+  padding: 5px 20px !important;
+  @media screen and (max-width: 600px) {
+    font-size: 20px !important;
+  }
+}
