@@ -86,7 +86,7 @@ let HELPERS = {
       return;
     }
     config.headers["Authorization"] = `Bearer ${hashcode} `;
-    config.headers["key"] = formattedKey;
+    config.headers["key"] = btoa(encodeURIComponent(formattedKey));
     try {
       const response = await HELPERS.request(config);
       return response;
