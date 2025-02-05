@@ -4,7 +4,7 @@ import { Row, Col, message, Carousel } from "antd";
 import Image from "next/image";
 import ClassicImage from "../../Assets/LudoClassic.png";
 import ClassicUltraImage from "../../Assets/starclassic4.png";
-import ManualImage from "../../Assets/home/classic.png";
+import ManualImage from "../../Assets/home/classic2.png";
 import LudoCover from "../../Assets/Ludo_cover.png";
 import { useRouter } from "next/router";
 import Head from "next/head";
@@ -112,6 +112,7 @@ function Tournaments() {
               <div className="ludo_game_container w-100">
                 <Image
                   src={ManualImage}
+                  style={{ borderRadius: "20px" }}
                   alt="manual room code"
                   className="home_image"
                   onClick={() => router.push("/tournaments/ludo-classic")}
