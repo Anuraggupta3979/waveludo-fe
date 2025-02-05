@@ -4,7 +4,7 @@ import { Carousel, Col, Row, message } from "antd";
 import Layout from "@/components/layout";
 import Image from "next/image";
 import ClassicImage from "../Assets/LudoClassic.png";
-import ManualImage from "../Assets/home/classic2.png";
+import ManualImage from "../Assets/home/classic2.PNG";
 import LudoCover from "../Assets/Ludo_cover.png";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";

@@ -4,7 +4,7 @@ import { Row, Col, message, Carousel } from "antd";
 import Image from "next/image";
 import ClassicImage from "../../Assets/LudoClassic.png";
 import ClassicUltraImage from "../../Assets/starclassic4.png";
-import ManualImage from "../../Assets/home/classic2.png";
+import ManualImage from "../../Assets/home/classic2.PNG";
 import LudoCover from "../../Assets/Ludo_cover.png";
 import { useRouter } from "next/router";
 import Head from "next/head";
