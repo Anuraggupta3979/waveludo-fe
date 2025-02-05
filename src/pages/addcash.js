@@ -363,11 +363,11 @@ function AddCash() {
           name="viewport"
           content="width=device-width, initial-scale=1"
         ></meta>
-        <meta name="url" content={`https://starludo.club/addcash`} />
+        <meta name="url" content={`https://wavegame.in/addcash`} />
         <meta property="og:image" content="/wavelogo.png" />
-        <meta property="og:url" content="https://starludo.club" />
-        <meta name="twitter:url" content="https://starludo.club" />
-        <link rel="canonical" href="https://starludo.club" />
+        <meta property="og:url" content="https://wavegame.in" />
+        <meta name="twitter:url" content="https://wavegame.in" />
+        <link rel="canonical" href="https://wavegame.in" />
         <meta name="author" content="Wave Game" />
         <meta property="og:type" content="website" />
         <meta name="twitter:type" content="summary" />
@@ -388,7 +388,7 @@ function AddCash() {
           {/* {process ? (
             <div className="loaderReturn" style={{ zIndex: "99" }}>
               <img
-                src={"https://starludo.club/Images/LandingPage_img/loader1.gif"}
+                src={"https://wavegame.in/Images/LandingPage_img/loader1.gif"}
                 style={{ width: "100%" }}
                 alt="img"
               />

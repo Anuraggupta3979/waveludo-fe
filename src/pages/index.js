@@ -65,9 +65,9 @@ export default function Home() {
         ></meta>
         <meta name="url" content={`https://ludo.com`} />
         <meta property="og:image" content="/wavelogo.png" />
-        <meta property="og:url" content="https://starludo.club" />
-        <meta name="twitter:url" content="https://starludo.club" />
-        <link rel="canonical" href="https://starludo.club" />
+        <meta property="og:url" content="https://wavegame.in" />
+        <meta name="twitter:url" content="https://wavegame.in" />
+        <link rel="canonical" href="https://wavegame.in" />
         <meta name="author" content="Wave Game" />
         <meta property="og:type" content="website" />
         <meta name="twitter:type" content="summary" />
@@ -162,7 +162,7 @@ export default function Home() {
               <p className="about_desc">
                 WAVEGAME is a skill based gaming platform accessible only for
                 our users in India. It is accessible on
-                <a href="https://starludo.club/">https://starludo.club/</a>. On
+                <a href="https://wavegame.in/"> https://wavegame.in/</a>. On
                 WAVEGAME, users can compete for real cash in Tournaments and
                 Battles. They can encash their winnings via popular options such
                 as Paytm Wallet, Amazon Pay, Bank Transfer, Mobile Recharges

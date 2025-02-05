@@ -309,6 +309,27 @@ function Header({ isValid }) {
                 <Row
                   gutter={16}
                   className="headerMenuItem"
+                  onClick={() => router.push("/gst-policy")}
+                >
+                  <Col>
+                    <Image src={PrivacyIcon} alt="profile" height={24} />
+                  </Col>
+                  <Col className="menuLink">GST Policy</Col>
+                </Row>
+                <Row
+                  gutter={16}
+                  className="headerMenuItem"
+                  onClick={() => router.push("/tds-policy")}
+                >
+                  <Col>
+                    <Image src={PrivacyIcon} alt="profile" height={24} />
+                  </Col>
+                  <Col className="menuLink">TDS Policy</Col>
+                </Row>
+
+                <Row
+                  gutter={16}
+                  className="headerMenuItem"
                   onClick={() => router.push("/privacy-policy")}
                 >
                   <Col>

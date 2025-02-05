@@ -64,12 +64,12 @@ function ReferEarn() {
   };
   const handleCopy = () => {
     navigator.clipboard.writeText(
-      `Play Ludo and earn *₹10000* daily. *5% commission for all game (referral bonus 2%)* . https://starludo.club/login?referral_code=${user?.referral_code}  Register Now, My refer code is ${user?.referral_code}`
+      `Play Ludo and earn *₹10000* daily. *5% commission for all game (referral bonus 2%)* . https://wavegame.in/login?referral_code=${user?.referral_code}  Register Now, My refer code is ${user?.referral_code}`
     );
     message.success("Referral code copied!");
   };
   const [copied, setCopied] = useState(false);
-  const link = `Play Ludo and earn *₹10000* daily. *5% commission for all game (referral bonus 2%)* . https://starludo.club/login?referral_code=${user?.referral_code}  Register Now, My refer code is ${user?.referral_code}`;
+  const link = `Play Ludo and earn *₹10000* daily. *5% commission for all game (referral bonus 2%)* . https://wavegame.in/login?referral_code=${user?.referral_code}  Register Now, My refer code is ${user?.referral_code}`;
 
   const copyToClipboard = async () => {
     try {
@@ -103,11 +103,11 @@ function ReferEarn() {
           name="viewport"
           content="width=device-width, initial-scale=1"
         ></meta>
-        <meta name="url" content={`https://starludo.club/refer-earn`} />
+        <meta name="url" content={`https://wavegame.in/refer-earn`} />
         <meta property="og:image" content="/wavelogo.png" />
-        <meta property="og:url" content="https://starludo.club" />
-        <meta name="twitter:url" content="https://starludo.club" />
-        <link rel="canonical" href="https://starludo.club" />
+        <meta property="og:url" content="https://wavegame.in" />
+        <meta name="twitter:url" content="https://wavegame.in" />
+        <link rel="canonical" href="https://wavegame.in" />
         <meta name="author" content="Wave Game" />
         <meta property="og:type" content="website" />
         <meta name="twitter:type" content="summary" />
@@ -191,7 +191,7 @@ function ReferEarn() {
             >
               <Col>
                 <a
-                  href={`whatsapp://send?text=Play Ludo and earn *₹10000* daily. *5% commission for all game (referral bonus 2%)* . https://starludo.club/login?referral_code=${user?.referral_code} Register Now, My refer code is ${user?.referral_code}.`}
+                  href={`whatsapp://send?text=Play Ludo and earn *₹10000* daily. *5% commission for all game (referral bonus 2%)* . https://wavegame.in/login?referral_code=${user?.referral_code} Register Now, My refer code is ${user?.referral_code}.`}
                 >
                   <Button className="whatsappBtn">SHARE ON WHATSAPP</Button>
                 </a>

@@ -42,11 +42,11 @@ function GameHistoryPage() {
           name="viewport"
           content="width=device-width, initial-scale=1"
         ></meta>
-        <meta name="url" content={`https://starludo.club/history`} />
+        <meta name="url" content={`https://wavegame.in/history`} />
         <meta property="og:image" content="/wavelogo.png" />
-        <meta property="og:url" content="https://starludo.club" />
-        <meta name="twitter:url" content="https://starludo.club" />
-        <link rel="canonical" href="https://starludo.club" />
+        <meta property="og:url" content="https://wavegame.in" />
+        <meta name="twitter:url" content="https://wavegame.in" />
+        <link rel="canonical" href="https://wavegame.in" />
         <meta name="author" content="Wave Game" />
         <meta property="og:type" content="website" />
         <meta name="twitter:type" content="summary" />
